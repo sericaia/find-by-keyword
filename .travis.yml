@@ -1,0 +1,15 @@
+sudo: false
+language: node_js
+node_js:
+  - "5"
+  - "4"
+  - "0.12"
+  - "0.11"
+  - "0.10"
+  - "iojs"
+env:
+  - CODECLIMATE_REPO_TOKEN=e10c3ce3f73642c1d9310196be246d9aa31118b9b0619c3932164023894ebe79
+
+script:
+  - npm test
+  - codeclimate-test-reporter < coverage/lcov.info
