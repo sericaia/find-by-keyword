@@ -8,6 +8,7 @@
   "author": "Daniela Borges <alunassertiva@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "lodash": "^4.5.0"
   },
   "devDependencies": {
     "codeclimate-test-reporter": "^0.3.1",
