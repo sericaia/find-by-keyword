@@ -58,7 +58,7 @@ var findByKeyword = function(store, keyword) {
       item.keywords.forEach(function(storeKeyword) {
         containsPartially(storeKeyword, keyword, function(err, percentage) {
           if (percentage) {
-            total.push({title: item.title, storeKeyword: storeKeyword, percentage: percentage});
+            total.push({title: item.title, percentage: percentage});
             return;
           }
         });
