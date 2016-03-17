@@ -8,6 +8,7 @@
   "author": "Daniela Borges <alunassertiva@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "fast-levenshtein": "^1.1.3",
     "lodash": "^4.5.0"
   },
   "devDependencies": {
